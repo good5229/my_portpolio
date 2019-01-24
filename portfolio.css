@@ -39,7 +39,12 @@ body{
     color:rgba(226, 7, 44, 0.918);
     font-family: 'Nanum Gothic Coding', monospace;
 }
-
+#portrait{
+    margin-top:45px;
+    width:300px;
+    height:300px;
+    border-radius: 250px;
+}
 #introduce{
     padding:5%;
     background-image:linear-gradient(to right,#80ccbe, cyan);
@@ -78,4 +83,75 @@ body{
     font-size:20px;
     font-weight:bold;
     line-height:35px;
+}
+/* @media screen and (min-width: 601px){
+    .navbar{
+        font-size:16px;
+    }
+    #introduce{
+       font-size:24px;
+    }
+    .introduce-bold{
+        font-size:30px;
+    }
+    #portrait{
+        margin-top:45px;
+        width:300px;
+        height:300px;
+        border-radius: 250px;
+    }
+    #career{
+       background-color:rgb(243, 239, 239);
+       padding:5%;
+       padding-left:10%;
+       font-size:12px;
+       font-family: 'Nanum Gothic', sans-serif;
+   }
+   
+   .career-univ > li, .career-seoul > li, .career-codeeight > li{
+       margin-left:5%;
+       font-size: 20px;
+       line-height: 35px;
+   }   
+} */
+
+@media screen and (max-width: 600px) {
+    .navbar > a{
+        font-size:16px;
+    }
+    .text{
+        padding-top:35px;
+    }
+    #introduce{
+        font-size:6px;
+    }
+    .introduce-bold{
+        font-size:16px;
+    }
+    #portrait{
+        display:none;
+        margin-top:25px;
+        width:150px;
+        height:150px;
+        border-radius: 250px;
+    }
+    #career{
+        background-color:rgb(243, 239, 239);
+        padding:5%;
+        padding-left:10%;
+        font-size:16px;
+        font-family: 'Nanum Gothic', sans-serif;
+    }
+
+    .career-univ > li, .career-seoul > li, .career-codeeight > li{
+        margin-left:5%;
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .image-row{
+        display: flex;
+        flex-direction:column;
+        justify-content: space-around;
+    }
+    
 }
