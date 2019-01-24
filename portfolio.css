@@ -1,0 +1,49 @@
+/* .container{
+    margin:10%;
+} */
+body{
+    margin:0;
+}
+
+.introduce-bold{
+    font-size:30px;
+    color:crimson;
+}
+
+#introduce{
+    padding:5%;
+    background-color:#80ccbe;
+    color:#FFFFFF;
+    font-size:24px;
+    font-weight:700;
+}
+
+#career{
+    background-color:rgb(243, 239, 239);
+    padding:5%;
+    padding-left:10%;
+    font-size:16px;
+}
+
+.career-univ > li, .career-seoul > li, .career-codeeight > li{
+    margin-left:5%;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+#portpolio{
+    padding:5%;
+}
+
+.image-row{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+}
+
+#contact{
+    padding:5% 5% 5% 15%;
+    font-size:20px;
+    font-weight:bold;
+    line-height:35px;
+}
