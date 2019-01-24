@@ -144,8 +144,9 @@ body{
         border-radius: 250px;
     }
     #career{
+        width:100%;
         background-color:rgb(243, 239, 239);
-        padding:2%;
+        padding:2% 0% 2% 2%;
         font-size:16px;
         font-family: 'Nanum Gothic', sans-serif;
     }
@@ -164,7 +165,7 @@ body{
         justify-content: space-around;
     }
     .portfolio_image{
-        width:400px;
+        width:100%;
         height:auto;
     }
     
