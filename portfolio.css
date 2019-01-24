@@ -81,6 +81,11 @@ body{
     justify-content: space-around;
 }
 
+.portfolio_image{
+    width:500px;
+    height:400px;
+}
+
 #contact{
     padding:5% 5% 5% 15%;
     font-size:20px;
@@ -157,6 +162,10 @@ body{
         display: flex;
         flex-direction:column;
         justify-content: space-around;
+    }
+    .portfolio_image{
+        width:400px;
+        height:auto;
     }
     
 }
