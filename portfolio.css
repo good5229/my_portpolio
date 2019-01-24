@@ -5,6 +5,33 @@ body{
     margin:0;
 }
 
+.navbar{
+    position: fixed;
+    text-align: center;
+    background:transparent;
+    display:flex;
+    justify-content: center;
+    width: 100%;
+    font-size:16px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: solid 1px whitesmoke;
+}
+
+.navbar > a {
+    text-decoration: none;
+    margin:5px;
+    width:150px;
+    font-weight:400;
+    font-size:24px;
+    color: #111111;
+}
+
+.navbar > a:hover {
+    color:#FFFFFF;
+    opacity:0.75;
+}
+
 .introduce-bold{
     font-size:30px;
     color:crimson;
