@@ -3,6 +3,7 @@
 } */
 body{
     margin:0;
+    
 }
 
 .navbar{
@@ -16,6 +17,7 @@ body{
     margin-top: 10px;
     padding-bottom: 10px;
     border-bottom: solid 1px whitesmoke;
+    font-family: 'Do Hyeon', sans-serif;
 }
 
 .navbar > a {
@@ -34,15 +36,17 @@ body{
 
 .introduce-bold{
     font-size:30px;
-    color:crimson;
+    color:rgba(226, 7, 44, 0.918);
+    font-family: 'Nanum Gothic Coding', monospace;
 }
 
 #introduce{
     padding:5%;
-    background-color:#80ccbe;
+    background-image:linear-gradient(to right,#80ccbe, cyan);
     color:#FFFFFF;
     font-size:24px;
     font-weight:700;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 
 #career{
@@ -50,6 +54,7 @@ body{
     padding:5%;
     padding-left:10%;
     font-size:16px;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 
 .career-univ > li, .career-seoul > li, .career-codeeight > li{
