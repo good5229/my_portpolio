@@ -3,8 +3,22 @@
 
 <head>
     <Title>김종백 포트폴리오</Title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:site_name" content="CodeEight Portfolio Example" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="CodeEight Portfolio Example" />
+    <meta property="og:description" content="HTML/CSS로 나만의 웹 포트폴리오를 만들어보자 시범자료입니다." />
+    <meta property="article:author" content="CodeEight" />
+    <meta property="og:url" content="https://good5229.github.io/my_portpolio/" />
+    <meta property="og:image" content="img/profile.jpg" />
+
+    <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="image/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="portfolio.css">
     <link href="https://fonts.googleapis.com/css?family=Do+Hyeon|Nanum+Gothic" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+        crossorigin="anonymous">
     <style>
         .image-row {
             display: flex;
@@ -24,15 +38,18 @@
         <div id="introduce">
             <div class="image-row">
                 <div class="text">
-                    <p>과거에는 인문계열은 문과 일만,</p> 
+                    <p>과거에는 인문계열은 문과 일만,</p>
                     <p>이공계열은 이과 일만 한다고 생각했었습니다.</p>
-                    <p>둘 사이를 뛰어넘는 건 <b class="introduce-bold">무모</b>해보이기도 했죠.</p>
+                    <p>둘 사이를 뛰어넘는 건
+                        <b class="introduce-bold">무모</b>해보이기도 했죠.</p>
                     <p>그러나 문이과를 나누는
                         <b class="introduce-bold">경계선</b>을 극복할 수 있다면</p>
                     <p>여태껏 겪지 못했던
                         <b class="introduce-bold">새로운 세계</b>를 마주할 수 있습니다.</p>
-                    <p>코딩도 요리처럼 <b class="introduce-bold">누구나 쉽게</b> 할 수 있습니다.</p>
-                    <p>CodeEight과 함께 코딩의 기본부터 차근차근 알아가봅시다.</p>
+                    <p>코딩도 요리처럼
+                        <b class="introduce-bold">누구나 쉽게</b> 할 수 있습니다.</p>
+                    <p>
+                        <b class="introduce-bold">CodeEight</b>과 함께 코딩의 기본부터 알아갑시다.</p>
                 </div>
                 <img id="portrait" src="image/profile.jpg">
             </div>
@@ -62,31 +79,39 @@
         <div id="portpolio">
             <div class="image-row">
                 <div class="image-section">
+                    <!-- <a href="http://www.cles.or.kr"> -->
                     <img src="image/project-cles.png" style="width:400px;height:350px;">
+                    <!-- </a> -->
                     <h5>전북대학교 강의평가 CLeS</h5>
                 </div>
                 <div class=image-section>
-                    <img src="image/dittofund.PNG" style="width:400px;height:350px;">
+                    <a href="http://www.dittofund.com">
+                        <img src="image/dittofund.PNG" style="width:400px;height:350px;" href="www.dittofund.com">
+                    </a>
                     <h5>헤지펀드 분석사이트 Dittofund</h5>
                 </div>
             </div>
             <div class="image-row">
                 <div class="image-section">
-                    <img src="image/gamaek.png" style="width:400px;height:350px;">
+                    <a href="http://gamaek.com">
+                        <img src="image/gamaek.png" style="width:400px;height:350px;" href="http://gamaek.com">
+                    </a>
                     <h5>전주가맥축제</h5>
                 </div>
                 <div class="image-section">
-                    <img src="image/vrone.png" style="width:400px;height:350px;">
+                    <a href="https://vrone.codeeight.io">
+                        <img src="image/vrone.png" style="width:400px;height:350px;" href="https://vrone.codeeight.io">
+                    </a>
                     <h5>3DVrone</h5>
                 </div>
             </div>
         </div>
         <div id="contact">
             <div>
-                tel: 010.4584.1497
+                &#x260E: 010.4584.1497
             </div>
             <div>
-                email: good5229@naver.com
+                <i class="far fa-envelope"></i>: good5229@naver.com
             </div>
         </div>
     </div>

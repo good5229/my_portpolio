@@ -36,8 +36,11 @@ body{
 
 .introduce-bold{
     font-size:30px;
-    color:rgba(226, 7, 44, 0.918);
     font-family: 'Nanum Gothic Coding', monospace;
+}
+
+.introduce-bold:hover{
+    color:rgba(226, 7, 44, 0.918);
 }
 #portrait{
     margin-top:45px;
@@ -137,16 +140,18 @@ body{
     }
     #career{
         background-color:rgb(243, 239, 239);
-        padding:5%;
-        padding-left:10%;
+        padding:2%;
         font-size:16px;
         font-family: 'Nanum Gothic', sans-serif;
     }
 
     .career-univ > li, .career-seoul > li, .career-codeeight > li{
-        margin-left:5%;
+        padding-left:3%;
         font-size: 10px;
         line-height: 15px;
+    }
+    #portpolio{
+        padding:2%;
     }
     .image-row{
         display: flex;
