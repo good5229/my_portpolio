@@ -65,6 +65,11 @@ body{
     font-family: 'Nanum Gothic', sans-serif;
 }
 
+#interview{
+    padding:5%;
+    display:flex;
+    justify-content: center;
+}
 .career-univ > li, .career-seoul > li, .career-codeeight > li{
     margin-left:5%;
     font-size: 20px;
@@ -142,6 +147,9 @@ body{
         width:150px;
         height:150px;
         border-radius: 250px;
+    }
+    #interview{
+        padding:2%;
     }
     #career{
         width:100%;
