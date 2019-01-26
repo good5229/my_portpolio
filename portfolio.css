@@ -6,7 +6,7 @@ body{
     
 }
 
-.navbar{
+.navbars{
     position: fixed;
     text-align: center;
     background:transparent;
@@ -20,7 +20,7 @@ body{
     font-family: 'Do Hyeon', sans-serif;
 }
 
-.navbar > a {
+.navbars > a {
     text-decoration: none;
     margin:5px;
     width:150px;
@@ -29,7 +29,7 @@ body{
     color: #111111;
 }
 
-.navbar > a:hover {
+.navbars > a:hover {
     color:#FFFFFF;
     opacity:0.75;
 }
@@ -129,7 +129,7 @@ body{
 } */
 
 @media screen and (max-width: 600px) {
-    .navbar > a{
+    .navbars > a{
         font-size:16px;
     }
     .text{
