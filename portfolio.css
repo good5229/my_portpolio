@@ -58,22 +58,13 @@ body{
 }
 
 #career{
-    background-color:rgb(243, 239, 239);
-    padding:5%;
-    padding-left:10%;
-    font-size:16px;
-    font-family: 'Nanum Gothic', sans-serif;
+       font-family: 'Nanum Gothic', sans-serif;
 }
 
 #interview{
     padding:5%;
     display:flex;
     justify-content: center;
-}
-.career-univ > li, .career-seoul > li, .career-codeeight > li{
-    margin-left:5%;
-    font-size: 20px;
-    line-height: 35px;
 }
 
 #portpolio{
@@ -151,19 +142,16 @@ body{
     #interview{
         padding:2%;
     }
-    #career{
-        width:100%;
-        background-color:rgb(243, 239, 239);
-        padding:2% 0% 2% 2%;
-        font-size:16px;
-        font-family: 'Nanum Gothic', sans-serif;
+    .career-contents{
+        display:flex;
+        flex-direction: column;
     }
 
-    .career-univ > li, .career-seoul > li, .career-codeeight > li{
-        padding-left:3%;
-        font-size: 10px;
-        line-height: 15px;
+    .career-content{
+        display:flex;
+        flex-direction:column;
     }
+
     #portpolio{
         padding:2%;
     }
